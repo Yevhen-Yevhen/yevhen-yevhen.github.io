@@ -1,5 +1,4 @@
-/* Reset some default styles */
-body, h1, h2, p {
+body, h1, h2, p, ul {
     margin: 0;
     padding: 0;
 }
@@ -26,19 +25,24 @@ header p {
     font-size: 1.2em;
 }
 
-section#projects {
+section {
     padding: 20px;
-}
-
-/* Add styles for your projects, adjust as needed */
-.project {
     margin-bottom: 20px;
-    border: 1px solid #ddd;
-    padding: 10px;
     background-color: #fff;
 }
 
-/* Add more styles as needed */
+h2 {
+    color: #007bff;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
 
 footer {
     text-align: center;
