@@ -60,4 +60,30 @@ footer {
     header p {
         font-size: 1em;
     }
+    .header-content {
+        display: flex;
+        align-items: center;
+    }
+    
+    .profile-image img {
+        border-radius: 50%;
+        width: 80px; /* Adjust size as needed */
+        height: 80px;
+        margin-right: 20px;
+        align-items: center;
+    }
+    
+    .header-text {
+        color: #fff;
+    }
+    
+    /* Make links clickable */
+    a {
+        color: #007bff;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        text-decoration: underline;
+    }
 }
